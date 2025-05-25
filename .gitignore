@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Configuration sensible
+config/.env
+config/credentials.json
+config/token.pickle
+
+# Cache et données
+data/cache/*
+*.log
+*.tmp
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
